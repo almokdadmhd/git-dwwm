@@ -1,0 +1,13 @@
+GIT
+
+Git et GitHub sont deux choses differentes !!!!  ASSEZ IMPORTANT
+GIT : logiciel de versionning
+GitHub : service d'hebergement des depots GIT en ligne.
+Dans le versionning, on a deux modes :
+Centralisé : comme SVN (rarement utilisé) : si un dev travaille sur un fichier, il est verrouillé pour les autres
+Décentralisé (distribué): Dans un modèle distribué, le principe de base est opposé : le code source du projet est toujours hébergé sur un serveur distant mais chaque utilisateur est invité à télécharger et à héberger l’intégralité du code source du projet sur sa propre machine.
+
+git config --global user.name "Zakaria ALMOKDAD"
+git config --global user.email almokdad.mhd@gmail.com
+git config --global core.editor notepad.exe
+git config -- get user.name 
